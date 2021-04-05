@@ -6,8 +6,11 @@ You are provided with a dataset of images of plant seedlings at various stages o
 Dataset:
 The dataset can be download from Olympus.
 The data file names are:
+
  images.npy
+
  Label.csv
+
 The original files are from Kaggle. Due to the large volume of data, the images were converted to images.npy file and the labels are also put into the Labels.csv. So that you can work on the data/project seamlessly without worrying about the high data volume.
 
 Context:
@@ -25,11 +28,17 @@ Learning Outcomes:
  The motive of the project is to make the learners capable to handle images/image classification problems, during this process you should also be capable to handle real image files, not just limited to a numpy array of image pixels.
 Guide to solve the project seamlessly:
 Here are the points which will help you to solve the problem efficiently:
+
  Read the problem statement carefully from start to end (including the note at the end). The highlighted part in the attached problem statement should not be missed.
+
  Download the dataset from the Olympus platform.
+
  Upload the "images.npy" and “Labels.csv” file to google drive.
+
  Then you can use the dataset path in the Google Colab notebook to do further steps related to project problem statement.
+
  You can set runtime type to “GPU” in Google Colab, so that the code will run faster as you will be using CNN to fit your model.
+
 Steps and tasks:
 1. Import the libraries, load dataset, print shape of data, visualize the images in dataset. (5 Marks)
 2. Data Pre-processing: (15 Marks)
