@@ -1,8 +1,11 @@
 # Computer-Vision
 
 Project Description – Image classification using CNNs in Keras
+
 Data Description:
+
 You are provided with a dataset of images of plant seedlings at various stages of grown. Each image has a filename that is its unique id. The dataset comprises 12 plant species. The goal of the project is to create a classifier capable of determining a plant's species from a photo.
+
 Dataset:
 The dataset can be download from Olympus.
 The data file names are:
@@ -20,13 +23,21 @@ The Aarhus University Signal Processing group, in collaboration with University 
 recently released a dataset containing images of unique plants belonging to 12 species at several growth stages
 Objective:
 To implement the techniques learnt as a part of the course.
+
 Learning Outcomes:
+
  Pre-processing of image data.
+
  Visualization of images.
+
  Building CNN.
+
  Evaluate the Model.
+
  The motive of the project is to make the learners capable to handle images/image classification problems, during this process you should also be capable to handle real image files, not just limited to a numpy array of image pixels.
+
 Guide to solve the project seamlessly:
+
 Here are the points which will help you to solve the problem efficiently:
 
  Read the problem statement carefully from start to end (including the note at the end). The highlighted part in the attached problem statement should not be missed.
@@ -52,9 +63,13 @@ c. Split the dataset into training, testing, and validation set.
 (Hint: First split images and labels into training and testing set with test_size = 0.3. Then further split test data into test and validation set with test_size = 0.5)
 d. Check the shape of data, Reshape data into shapes compatible with Keras models if it’s not already. If it’s already in the compatible shape, then comment in the notebook that it’s already in compatible shape.
 4. Building CNN: (15 Marks)
+
 a. Define layers.
+
 b. Set optimizer and loss function. (Use Adam optimizer and categorical crossentropy.)
+
 5. Fit and evaluate model and print confusion matrix. (10 Marks)
+
 6. Visualize predictions for x_test[2], x_test[3], x_test[33], x_test[36], x_test[59]. (5 Marks)
 Note:
  Download the train images from the Olympus Platform.
